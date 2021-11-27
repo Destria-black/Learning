@@ -1,0 +1,16 @@
+temperature = 3
+
+if temperature > 30:
+    print("Its a hot day, drink plenty of water")
+if temperature < 15:
+    print("No need to drink any water today")
+elif temperature > 39:
+    print("Its really hot so stay indoors")
+elif temperature < 10:
+    print("Don't bother getting out of bed")
+else:
+    print("Its a lovely day today")
+
+# this returns:
+# No need to drink any water today
+# Process finished with exit code 0
